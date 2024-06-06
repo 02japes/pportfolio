@@ -1,0 +1,15 @@
+{
+  "hash": "ad63e43731799a029e811d80e3f6a85b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Photos\"\ntitle-block-banner: true\npage-layout: full\nfreeze: true\nlightbox: auto\necho: false\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

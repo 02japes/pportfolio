@@ -1,0 +1,15 @@
+{
+  "hash": "967393358b60c74b69772ad11f5f65b5",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Photography\"\ntitle-block-banner: true\npage-layout: full\nfreeze: true\nlightbox: auto\necho: false\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n\n:::\n\n\n## Figueroa Mountain State Park | Santa Barbara County, CA\n\n::: {style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;\"}\n\n![01](photos/IMG_6744.jpg){description=\"Canon Canon EOS REBEL T1i Lens EF-S55-250mm f/4-5.6 IS <br>\n55mm f/11 1/40 ISO 400 <br>\n2024-05-18 15:17:36 UTC\" desc-position=\"left\" group=\"jalama\"}\n\n![02](photos/IMG_6752.jpg){description=\"Canon Canon EOS REBEL T1i Lens EF-S55-250mm f/4-5.6 IS <br>\n55mm f/11 1/40 ISO 400 <br>\n2024-05-18 15:17:36 UTC\" desc-position=\"left\" group=\"jalama\"}\n![03](photos/IMG_6753.jpg)\n\n:::\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

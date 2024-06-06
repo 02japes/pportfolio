@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hello, my name is Jack. I am a novice photographer based out of Santa Barbara, CA with a passion for surfing and nature photography. My goal is to promote a sustainable future through the lens of my camera."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nDiablo Valley College | Concord, CA\nAssociates for Transfer | Aug, 2020 - Feb, 2022\nAmerican Institute for Foreign Study | Florence, IT\nAssociates for Transfer | Feb, 2022 - May, 2022\nUniversity of California Santa Barbara | Santa Barbara, CA\nB.S. in Environmental Studies | Aug, 2022 - Jun, 2025"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Photography",
+    "section": "",
+    "text": "01\n\n\n \n\n\n\n\n01"
+  },
+  {
+    "objectID": "index.html#figueroa-mountain-state-park-santa-barbara-county-ca",
+    "href": "index.html#figueroa-mountain-state-park-santa-barbara-county-ca",
+    "title": "Photography",
+    "section": "",
+    "text": "01\n\n\n \n\n\n\n\n01"
+  }
+]

@@ -1,0 +1,33 @@
+---
+title: "About"
+image: 000016040017.jpg
+  
+about:
+  template: trestles
+  links:
+    - icon: instagram
+      text: IG
+      href: https://instagram.com/jpphillips2
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/jack-phillips-6783b2274/
+    - icon: github
+      text: Github
+      href: https://github.com/02japes
+---
+
+Hello, my name is Jack. I am a novice photographer based out of Santa Barbara, CA with a passion for surfing and nature photography. My goal is to promote a sustainable future through the lens of my camera.
+
+## Education
+
+***Diablo Valley College*** \| Concord, CA
+
+Associates for Transfer \| Aug, 2020 - Feb, 2022
+
+***American Institute for Foreign Stud*****y** \| Florence, IT
+
+Associates for Transfer \| Feb, 2022 - May, 2022
+
+***University of California Santa Barbara*** \| Santa Barbara, CA
+
+B.S. in Environmental Studies \| Aug, 2022 - Jun, 2025
