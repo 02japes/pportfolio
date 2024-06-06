@@ -49,6 +49,15 @@ descrip_exif <- function(x){
              {exif$FocalLength}mm f/{exif$FNumber} 1/{round(1/exif$ExposureTime)} ISO {exif$ISO} <br>
              {lubridate::as_datetime(glue::glue('{exif$DateTimeOriginal} {exif$OffsetTime}'))} UTC")
 }
+generate_descriptions <- function(image_path) {
+  descriptions <- list()
+  
+  for(f in list.files(image_path, full.names = TRUE)) {
+    descriptions[[basename(f)]] <- descrip_exif(f)
+  }
+  
+  return(descriptions)
+}
 ```
 
 ```{r}
@@ -57,7 +66,9 @@ prepare_photos(
   source_path = "~/user/jackphillips/desktop/ENVS_193DS/github/images//", 
   dest_path = "images/"
 )
+image_descriptions <- generate_descriptions('images/')
 ```
+
 
 ## Figueroa Mountain State Park | Santa Barbara County, CA
 
