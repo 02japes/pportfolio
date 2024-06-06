@@ -2,9 +2,11 @@ project:
   type: website
 
 website:
-  title: "PPortfolio"
+  title: "Jack Phillips"
   navbar:
+    background: transparent
     right:
+      - photography.qmd
       - about.qmd
       - icon: github
         href: https://github.com/02japes

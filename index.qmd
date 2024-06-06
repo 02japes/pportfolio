@@ -1,88 +1,16 @@
 ---
-title: "Photography"
-title-block-banner: true
-page-layout: full
-freeze: true
-lightbox: auto
-echo: false
+format: html
 ---
 
----
-title: "Photography"
-title-block-banner: true
-page-layout: full
-freeze: true
-lightbox: auto
-echo: false
----
-
-```{r}
-prepare_photos <- function(source_path, dest_path, geometry = "1600"){
-  if (!dir.exists(dest_path)) {
-    dir.create(dest_path, recursive = TRUE)
-  }
-
-  for(f in list.files(source_path, full.names = TRUE)){
-    magick::image_read(path = f) |>
-      magick::image_resize(geometry = geometry) |>
-      magick::image_write(path = file.path(dest_path, basename(f)))
-  }
+<style>
+  body {
+  background-image: url("https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-descrip_exif <- function(x){
-  if (!file.exists(x)) {
-    return("File not found")
-  }
   
-  exif <- exifr::read_exif(
-    path = x, 
-    tags = c("Make", "Model", "FocalLength", "FNumber", "ExposureTime", 
-             "ISO", "LensModel", "BatteryLevel", "SelfTimer", "DateTimeOriginal", "OffsetTime")
-  )
-  
-  
-  if (nrow(exif) == 0) {
-    return("No EXIF data found")
-  }
-  
-  glue::glue("{exif$Make} {exif$Model} Lens {exif$LensModel} <br>
-             {exif$FocalLength}mm f/{exif$FNumber} 1/{round(1/exif$ExposureTime)} ISO {exif$ISO} <br>
-             {lubridate::as_datetime(glue::glue('{exif$DateTimeOriginal} {exif$OffsetTime}'))} UTC")
-}
-generate_descriptions <- function(image_path) {
-  descriptions <- list()
-  
-  for(f in list.files(image_path, full.names = TRUE)) {
-    descriptions[[basename(f)]] <- descrip_exif(f)
-  }
-  
-  return(descriptions)
-}
-```
+</style>
 
-```{r}
-#| eval: false
-prepare_photos(
-  source_path = "~/user/jackphillips/desktop/ENVS_193DS/github/images//", 
-  dest_path = "images/"
-)
-image_descriptions <- generate_descriptions('images/')
-```
+# Project 01
 
-
-## Figueroa Mountain State Park | Santa Barbara County, CA
-
-::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
-![01](images/IMG_6744.jpg){description="`r descrip_exif('images/IMG_6744.jpg')`" desc-position="left" group="figueroa"}
-
-![02](images/IMG_6752.jpg){description="`r descrip_exif('images/IMG_6752.jpg')`" desc-position="left" group="figueroa"}
-
-![03](images/IMG_6753.jpg){description="`r descrip_exif('images/IMG_6753.jpg')`" desc-position="left" group="figueroa"}
-:::
-
-## Jalama State Beach Park | Santa Barbara County, CA
-
-::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
-![01](images/IMG_6764.jpg){description="'r descrip_exif('images/IMG_6764.jpg')`" desc-position="left" group="jalama"}
-
-:::
+Welcome to my portfolio.
