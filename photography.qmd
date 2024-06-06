@@ -74,6 +74,23 @@ image_descriptions <- generate_descriptions('images/')
 ## Jalama State Beach Park | Santa Barbara County, CA
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
-![01](images/IMG_6764.jpg){description="'r descrip_exif('images/IMG_6764.jpg')`" desc-position="left" group="jalama"}
+![Alone](images/IMG_6764.jpg){description="'r descrip_exif('images/IMG_6764.jpg')`" desc-position="left" group="jalama"}
+
+![Lull](images/IMG_6772.jpg){description="'r descrip_exif('images/IMG_6764.jpg')`" desc-position="left" group="jalama"}
+
+![Trio](images/IMG_6758.jpg){description="'r descrip_exif('images/IMG_6764.jpg')`" desc-position="left" group="jalama"}
+
+![Untitled](images/IMG_6768.jpg){description="'r descrip_exif('images/IMG_6764.jpg')`" desc-position="left" group="jalama"}
+:::
+
+## Florence, IT
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
+![]
+:::
+
+## Misc. Surfing
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));grid-gap: 1em;"}
 
 :::
